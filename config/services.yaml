@@ -31,3 +31,6 @@ services:
     App\Taxes\Calculator:
         arguments:
             $tva: 20
+    App\Taxes\Detector:
+        arguments:
+            $max: 100
